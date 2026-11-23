@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofre 67</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="game">
+
+        <h1>Jogo do Cofre</h1>
+
+        <p>Descubra a senha secreta entre 1 e 50!</p>
+
+        <img src="img/cofrerosa.png" id="cofre" alt="Cofre fechado">
+
+        <div class="tentativas">
+            <p>Tentativas restantes: <span id="contador">7</span></p>
+        </div>
+
+        <input type="number" id="palpite" placeholder="Digite um número" min="1" max="50">
+
+        <button id="tentar">Tentar abrir</button>
+
+        <p id="mensagem"></p>
+
+        <button id="reiniciar">Reiniciar</button>
+
+    </div>
+
+    <div id="overview">
+
+        <div class="caixa">
+
+            <h2>Cofre desbloqueado!</h2>
+
+            <p id="resultado"></p>
+
+            <button id="jogar_novamente">Jogar novamente</button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
